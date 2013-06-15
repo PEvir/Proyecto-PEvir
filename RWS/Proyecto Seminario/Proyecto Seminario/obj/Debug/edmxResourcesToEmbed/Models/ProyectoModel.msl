@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PPVIRModelStoreContainer" CdmEntityContainer="PPVIREntities">
+    <EntitySetMapping Name="BANEO">
+      <EntityTypeMapping TypeName="PPVIRModel.BANEO">
+        <MappingFragment StoreEntitySet="BANEO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+          <ScalarProperty Name="idsuperusuario" ColumnName="idsuperusuario" />
+          <ScalarProperty Name="razonbaneo" ColumnName="razonbaneo" />
+          <ScalarProperty Name="gravedad" ColumnName="gravedad" />
+          <ScalarProperty Name="fechainiciobaneo" ColumnName="fechainiciobaneo" />
+          <ScalarProperty Name="fechafinbaneo" ColumnName="fechafinbaneo" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMENTARIO_CURSO">
+      <EntityTypeMapping TypeName="PPVIRModel.COMENTARIO_CURSO">
+        <MappingFragment StoreEntitySet="COMENTARIO_CURSO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+          <ScalarProperty Name="idcurso" ColumnName="idcurso" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMENTARIOS">
+      <EntityTypeMapping TypeName="PPVIRModel.COMENTARIOS">
+        <MappingFragment StoreEntitySet="COMENTARIOS">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idcomentariocurso" ColumnName="idcomentariocurso" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="comentario" ColumnName="comentario" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CURSO">
+      <EntityTypeMapping TypeName="PPVIRModel.CURSO">
+        <MappingFragment StoreEntitySet="CURSO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="titulodelcurso" ColumnName="titulodelcurso" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="fechainicio" ColumnName="fechainicio" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MATERIAL">
+      <EntityTypeMapping TypeName="PPVIRModel.MATERIAL">
+        <MappingFragment StoreEntitySet="MATERIAL">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idcurso" ColumnName="idcurso" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PREGUNTA">
+      <EntityTypeMapping TypeName="PPVIRModel.PREGUNTA">
+        <MappingFragment StoreEntitySet="PREGUNTA">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idpreguntacurso" ColumnName="idpreguntacurso" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PREGUNTA_CURSO">
+      <EntityTypeMapping TypeName="PPVIRModel.PREGUNTA_CURSO">
+        <MappingFragment StoreEntitySet="PREGUNTA_CURSO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+          <ScalarProperty Name="idcurso" ColumnName="idcurso" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RESPUESTA_CURSO">
+      <EntityTypeMapping TypeName="PPVIRModel.RESPUESTA_CURSO">
+        <MappingFragment StoreEntitySet="RESPUESTA_CURSO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idusuario_pregunta" ColumnName="idusuario_pregunta" />
+          <ScalarProperty Name="idcurso" ColumnName="idcurso" />
+          <ScalarProperty Name="idpregunta" ColumnName="idpregunta" />
+          <ScalarProperty Name="puntaje" ColumnName="puntaje" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROLES">
+      <EntityTypeMapping TypeName="PPVIRModel.ROLES">
+        <MappingFragment StoreEntitySet="ROLES">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="detalles" ColumnName="detalles" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SESION">
+      <EntityTypeMapping TypeName="PPVIRModel.SESION">
+        <MappingFragment StoreEntitySet="SESION">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUBIR_CURSO">
+      <EntityTypeMapping TypeName="PPVIRModel.SUBIR_CURSO">
+        <MappingFragment StoreEntitySet="SUBIR_CURSO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+          <ScalarProperty Name="idcurso" ColumnName="idcurso" />
+          <ScalarProperty Name="materia" ColumnName="materia" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="PPVIRModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO">
+      <EntityTypeMapping TypeName="PPVIRModel.USUARIO">
+        <MappingFragment StoreEntitySet="USUARIO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="fechanacimiento" ColumnName="fechanacimiento" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="avatar" ColumnName="avatar" />
+          <ScalarProperty Name="nick" ColumnName="nick" />
+          <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+          <ScalarProperty Name="carrera" ColumnName="carrera" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="fecharegistro" ColumnName="fecharegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOENROLES">
+      <EntityTypeMapping TypeName="PPVIRModel.USUARIOENROLES">
+        <MappingFragment StoreEntitySet="USUARIOENROLES">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+          <ScalarProperty Name="idrol" ColumnName="idrol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

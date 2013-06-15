@@ -1,0 +1,196 @@
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Proyecto Seminario.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Proyecto Seminario.pdb
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Antlr3.Runtime.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.AspNet.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.Core.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\EntityFramework.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.Infrastructure.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Newtonsoft.Json.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Net.Http.Formatting.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Helpers.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.WebHost.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Mvc.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Optimization.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Razor.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Deployment.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Razor.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebGrease.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.Data.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.WebData.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\EntityFramework.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Newtonsoft.Json.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Net.Http.Formatting.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Helpers.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.WebHost.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Mvc.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Razor.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Deployment.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Razor.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.Data.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.WebData.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.AspNet.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.Core.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.dll
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.pdb
+c:\users\luis\documents\visual studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Proyecto Seminario.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Proyecto Seminario.pdb
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Antlr3.Runtime.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.Core.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\EntityFramework.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Newtonsoft.Json.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Net.Http.Formatting.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Helpers.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.WebHost.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Mvc.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Optimization.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Razor.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Razor.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebGrease.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.Data.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.WebData.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\EntityFramework.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Newtonsoft.Json.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Net.Http.Formatting.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Helpers.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.WebHost.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Mvc.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Razor.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Razor.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.Data.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.WebData.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.Core.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.dll
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.pdb
+C:\Users\Christian\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.csprojResolveAssemblyReference.cache
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Proyecto Seminario.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Proyecto Seminario.pdb
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Antlr3.Runtime.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.Core.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\EntityFramework.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Newtonsoft.Json.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Net.Http.Formatting.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Helpers.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.WebHost.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Mvc.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Optimization.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Razor.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Razor.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebGrease.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.Data.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.WebData.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\EntityFramework.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Newtonsoft.Json.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Net.Http.Formatting.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Helpers.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.WebHost.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Mvc.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Razor.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Razor.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.Data.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.WebData.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.Core.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.csprojResolveAssemblyReference.cache
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.dll
+C:\Users\cpl\Documents\Visual Studio 2012\Projects\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.pdb
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\Proyecto Seminario.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\Proyecto Seminario.pdb
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\Antlr3.Runtime.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.Core.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\EntityFramework.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\Newtonsoft.Json.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Net.Http.Formatting.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Helpers.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.WebHost.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Mvc.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Optimization.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Razor.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Razor.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\WebGrease.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.Data.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.WebData.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\EntityFramework.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\Newtonsoft.Json.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Net.Http.Formatting.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Helpers.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Http.WebHost.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Mvc.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.Razor.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\System.Web.WebPages.Razor.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.Data.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\WebMatrix.WebData.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.Core.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.csprojResolveAssemblyReference.cache
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.dll
+C:\Users\LUIS\Documents\Visual Studio 2012\Projects\RWS\Proyecto Seminario\Proyecto Seminario\obj\Debug\Proyecto Seminario.pdb

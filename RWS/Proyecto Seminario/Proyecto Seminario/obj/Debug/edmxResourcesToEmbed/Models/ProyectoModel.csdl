@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PPVIRModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PPVIREntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="BANEO" EntityType="PPVIRModel.BANEO" />
+    <EntitySet Name="COMENTARIO_CURSO" EntityType="PPVIRModel.COMENTARIO_CURSO" />
+    <EntitySet Name="COMENTARIOS" EntityType="PPVIRModel.COMENTARIOS" />
+    <EntitySet Name="CURSO" EntityType="PPVIRModel.CURSO" />
+    <EntitySet Name="MATERIAL" EntityType="PPVIRModel.MATERIAL" />
+    <EntitySet Name="PREGUNTA" EntityType="PPVIRModel.PREGUNTA" />
+    <EntitySet Name="PREGUNTA_CURSO" EntityType="PPVIRModel.PREGUNTA_CURSO" />
+    <EntitySet Name="RESPUESTA_CURSO" EntityType="PPVIRModel.RESPUESTA_CURSO" />
+    <EntitySet Name="ROLES" EntityType="PPVIRModel.ROLES" />
+    <EntitySet Name="SESION" EntityType="PPVIRModel.SESION" />
+    <EntitySet Name="SUBIR_CURSO" EntityType="PPVIRModel.SUBIR_CURSO" />
+    <EntitySet Name="sysdiagrams" EntityType="PPVIRModel.sysdiagrams" />
+    <EntitySet Name="USUARIO" EntityType="PPVIRModel.USUARIO" />
+    <EntitySet Name="USUARIOENROLES" EntityType="PPVIRModel.USUARIOENROLES" />
+    <AssociationSet Name="FK__BANEO__idsuperus__24927208" Association="PPVIRModel.FK__BANEO__idsuperus__24927208">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="BANEO" EntitySet="BANEO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BANEO__idusuario__239E4DCF" Association="PPVIRModel.FK__BANEO__idusuario__239E4DCF">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="BANEO" EntitySet="BANEO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__COMENTARI__idcom__1920BF5C" Association="PPVIRModel.FK__COMENTARI__idcom__1920BF5C">
+      <End Role="COMENTARIO_CURSO" EntitySet="COMENTARIO_CURSO" />
+      <End Role="COMENTARIOS" EntitySet="COMENTARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__COMENTARI__idcur__145C0A3F" Association="PPVIRModel.FK__COMENTARI__idcur__145C0A3F">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="COMENTARIO_CURSO" EntitySet="COMENTARIO_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__COMENTARI__idusu__1367E606" Association="PPVIRModel.FK__COMENTARI__idusu__1367E606">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="COMENTARIO_CURSO" EntitySet="COMENTARIO_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MATERIAL__idcurs__08EA5793" Association="PPVIRModel.FK__MATERIAL__idcurs__08EA5793">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="MATERIAL" EntitySet="MATERIAL" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PREGUNTA___idcur__1ED998B2" Association="PPVIRModel.FK__PREGUNTA___idcur__1ED998B2">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="PREGUNTA_CURSO" EntitySet="PREGUNTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RESPUESTA__idcur__2F10007B" Association="PPVIRModel.FK__RESPUESTA__idcur__2F10007B">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="RESPUESTA_CURSO" EntitySet="RESPUESTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SUBIR_CUR__idcur__0EA330E9" Association="PPVIRModel.FK__SUBIR_CUR__idcur__0EA330E9">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="SUBIR_CURSO" EntitySet="SUBIR_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PREGUNTA__idpreg__29572725" Association="PPVIRModel.FK__PREGUNTA__idpreg__29572725">
+      <End Role="PREGUNTA_CURSO" EntitySet="PREGUNTA_CURSO" />
+      <End Role="PREGUNTA" EntitySet="PREGUNTA" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RESPUESTA__idpre__300424B4" Association="PPVIRModel.FK__RESPUESTA__idpre__300424B4">
+      <End Role="PREGUNTA" EntitySet="PREGUNTA" />
+      <End Role="RESPUESTA_CURSO" EntitySet="RESPUESTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PREGUNTA___idusu__1DE57479" Association="PPVIRModel.FK__PREGUNTA___idusu__1DE57479">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="PREGUNTA_CURSO" EntitySet="PREGUNTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RESPUESTA__idusu__2E1BDC42" Association="PPVIRModel.FK__RESPUESTA__idusu__2E1BDC42">
+      <End Role="PREGUNTA_CURSO" EntitySet="PREGUNTA_CURSO" />
+      <End Role="RESPUESTA_CURSO" EntitySet="RESPUESTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USUARIOEN__idrol__5812160E" Association="PPVIRModel.FK__USUARIOEN__idrol__5812160E">
+      <End Role="ROLES" EntitySet="ROLES" />
+      <End Role="USUARIOENROLES" EntitySet="USUARIOENROLES" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SESION__idusuari__412EB0B6" Association="PPVIRModel.FK__SESION__idusuari__412EB0B6">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="SESION" EntitySet="SESION" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SUBIR_CUR__idusu__0DAF0CB0" Association="PPVIRModel.FK__SUBIR_CUR__idusu__0DAF0CB0">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="SUBIR_CURSO" EntitySet="SUBIR_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USUARIOEN__idusu__571DF1D5" Association="PPVIRModel.FK__USUARIOEN__idusu__571DF1D5">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="USUARIOENROLES" EntitySet="USUARIOENROLES" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BANEO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="Int32" Nullable="false" />
+    <Property Name="idsuperusuario" Type="Int32" Nullable="false" />
+    <Property Name="razonbaneo" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="gravedad" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="fechainiciobaneo" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="fechafinbaneo" Type="DateTime" Precision="3" />
+    <Property Name="activo" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="USUARIO" Relationship="PPVIRModel.FK__BANEO__idsuperus__24927208" FromRole="BANEO" ToRole="USUARIO" />
+    <NavigationProperty Name="USUARIO1" Relationship="PPVIRModel.FK__BANEO__idusuario__239E4DCF" FromRole="BANEO" ToRole="USUARIO" />
+  </EntityType>
+  <EntityType Name="COMENTARIO_CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="Int32" Nullable="false" />
+    <Property Name="idcurso" Type="Int32" Nullable="false" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="COMENTARIOS" Relationship="PPVIRModel.FK__COMENTARI__idcom__1920BF5C" FromRole="COMENTARIO_CURSO" ToRole="COMENTARIOS" />
+    <NavigationProperty Name="CURSO" Relationship="PPVIRModel.FK__COMENTARI__idcur__145C0A3F" FromRole="COMENTARIO_CURSO" ToRole="CURSO" />
+    <NavigationProperty Name="USUARIO" Relationship="PPVIRModel.FK__COMENTARI__idusu__1367E606" FromRole="COMENTARIO_CURSO" ToRole="USUARIO" />
+  </EntityType>
+  <EntityType Name="COMENTARIOS">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idcomentariocurso" Type="Int32" Nullable="false" />
+    <Property Name="titulo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="comentario" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="COMENTARIO_CURSO" Relationship="PPVIRModel.FK__COMENTARI__idcom__1920BF5C" FromRole="COMENTARIOS" ToRole="COMENTARIO_CURSO" />
+  </EntityType>
+  <EntityType Name="CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="titulodelcurso" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="descripcion" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="fechainicio" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="COMENTARIO_CURSO" Relationship="PPVIRModel.FK__COMENTARI__idcur__145C0A3F" FromRole="CURSO" ToRole="COMENTARIO_CURSO" />
+    <NavigationProperty Name="MATERIAL" Relationship="PPVIRModel.FK__MATERIAL__idcurs__08EA5793" FromRole="CURSO" ToRole="MATERIAL" />
+    <NavigationProperty Name="PREGUNTA_CURSO" Relationship="PPVIRModel.FK__PREGUNTA___idcur__1ED998B2" FromRole="CURSO" ToRole="PREGUNTA_CURSO" />
+    <NavigationProperty Name="RESPUESTA_CURSO" Relationship="PPVIRModel.FK__RESPUESTA__idcur__2F10007B" FromRole="CURSO" ToRole="RESPUESTA_CURSO" />
+    <NavigationProperty Name="SUBIR_CURSO" Relationship="PPVIRModel.FK__SUBIR_CUR__idcur__0EA330E9" FromRole="CURSO" ToRole="SUBIR_CURSO" />
+  </EntityType>
+  <EntityType Name="MATERIAL">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idcurso" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="tipo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="CURSO" Relationship="PPVIRModel.FK__MATERIAL__idcurs__08EA5793" FromRole="MATERIAL" ToRole="CURSO" />
+  </EntityType>
+  <EntityType Name="PREGUNTA">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idpreguntacurso" Type="Int32" Nullable="false" />
+    <Property Name="titulo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="PREGUNTA_CURSO" Relationship="PPVIRModel.FK__PREGUNTA__idpreg__29572725" FromRole="PREGUNTA" ToRole="PREGUNTA_CURSO" />
+    <NavigationProperty Name="RESPUESTA_CURSO" Relationship="PPVIRModel.FK__RESPUESTA__idpre__300424B4" FromRole="PREGUNTA" ToRole="RESPUESTA_CURSO" />
+  </EntityType>
+  <EntityType Name="PREGUNTA_CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="Int32" Nullable="false" />
+    <Property Name="idcurso" Type="Int32" Nullable="false" />
+    <Property Name="hora" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="CURSO" Relationship="PPVIRModel.FK__PREGUNTA___idcur__1ED998B2" FromRole="PREGUNTA_CURSO" ToRole="CURSO" />
+    <NavigationProperty Name="PREGUNTA" Relationship="PPVIRModel.FK__PREGUNTA__idpreg__29572725" FromRole="PREGUNTA_CURSO" ToRole="PREGUNTA" />
+    <NavigationProperty Name="USUARIO" Relationship="PPVIRModel.FK__PREGUNTA___idusu__1DE57479" FromRole="PREGUNTA_CURSO" ToRole="USUARIO" />
+    <NavigationProperty Name="RESPUESTA_CURSO" Relationship="PPVIRModel.FK__RESPUESTA__idusu__2E1BDC42" FromRole="PREGUNTA_CURSO" ToRole="RESPUESTA_CURSO" />
+  </EntityType>
+  <EntityType Name="RESPUESTA_CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario_pregunta" Type="Int32" Nullable="false" />
+    <Property Name="idcurso" Type="Int32" Nullable="false" />
+    <Property Name="idpregunta" Type="Int32" Nullable="false" />
+    <Property Name="puntaje" Type="Int32" Nullable="false" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="CURSO" Relationship="PPVIRModel.FK__RESPUESTA__idcur__2F10007B" FromRole="RESPUESTA_CURSO" ToRole="CURSO" />
+    <NavigationProperty Name="PREGUNTA" Relationship="PPVIRModel.FK__RESPUESTA__idpre__300424B4" FromRole="RESPUESTA_CURSO" ToRole="PREGUNTA" />
+    <NavigationProperty Name="PREGUNTA_CURSO" Relationship="PPVIRModel.FK__RESPUESTA__idusu__2E1BDC42" FromRole="RESPUESTA_CURSO" ToRole="PREGUNTA_CURSO" />
+  </EntityType>
+  <EntityType Name="ROLES">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="64" Unicode="false" FixedLength="false" />
+    <Property Name="detalles" Type="String" MaxLength="256" Unicode="false" FixedLength="false" />
+    <Property Name="fecharegistro" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="USUARIOENROLES" Relationship="PPVIRModel.FK__USUARIOEN__idrol__5812160E" FromRole="ROLES" ToRole="USUARIOENROLES" />
+  </EntityType>
+  <EntityType Name="SESION">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="Int32" />
+    <Property Name="estado" Type="String" MaxLength="16" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="USUARIO" Relationship="PPVIRModel.FK__SESION__idusuari__412EB0B6" FromRole="SESION" ToRole="USUARIO" />
+  </EntityType>
+  <EntityType Name="SUBIR_CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="Int32" Nullable="false" />
+    <Property Name="idcurso" Type="Int32" Nullable="false" />
+    <Property Name="materia" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="CURSO" Relationship="PPVIRModel.FK__SUBIR_CUR__idcur__0EA330E9" FromRole="SUBIR_CURSO" ToRole="CURSO" />
+    <NavigationProperty Name="USUARIO" Relationship="PPVIRModel.FK__SUBIR_CUR__idusu__0DAF0CB0" FromRole="SUBIR_CURSO" ToRole="USUARIO" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="apellidos" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="fechanacimiento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="avatar" Type="String" MaxLength="512" Unicode="false" FixedLength="false" />
+    <Property Name="nick" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="contrasena" Type="String" Nullable="false" MaxLength="256" Unicode="false" FixedLength="false" />
+    <Property Name="carrera" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="direccion" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="sexo" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="fecharegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="BANEO" Relationship="PPVIRModel.FK__BANEO__idsuperus__24927208" FromRole="USUARIO" ToRole="BANEO" />
+    <NavigationProperty Name="BANEO1" Relationship="PPVIRModel.FK__BANEO__idusuario__239E4DCF" FromRole="USUARIO" ToRole="BANEO" />
+    <NavigationProperty Name="COMENTARIO_CURSO" Relationship="PPVIRModel.FK__COMENTARI__idusu__1367E606" FromRole="USUARIO" ToRole="COMENTARIO_CURSO" />
+    <NavigationProperty Name="PREGUNTA_CURSO" Relationship="PPVIRModel.FK__PREGUNTA___idusu__1DE57479" FromRole="USUARIO" ToRole="PREGUNTA_CURSO" />
+    <NavigationProperty Name="SESION" Relationship="PPVIRModel.FK__SESION__idusuari__412EB0B6" FromRole="USUARIO" ToRole="SESION" />
+    <NavigationProperty Name="SUBIR_CURSO" Relationship="PPVIRModel.FK__SUBIR_CUR__idusu__0DAF0CB0" FromRole="USUARIO" ToRole="SUBIR_CURSO" />
+    <NavigationProperty Name="USUARIOENROLES" Relationship="PPVIRModel.FK__USUARIOEN__idusu__571DF1D5" FromRole="USUARIO" ToRole="USUARIOENROLES" />
+  </EntityType>
+  <EntityType Name="USUARIOENROLES">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="Int32" />
+    <Property Name="idrol" Type="Int32" />
+    <NavigationProperty Name="ROLES" Relationship="PPVIRModel.FK__USUARIOEN__idrol__5812160E" FromRole="USUARIOENROLES" ToRole="ROLES" />
+    <NavigationProperty Name="USUARIO" Relationship="PPVIRModel.FK__USUARIOEN__idusu__571DF1D5" FromRole="USUARIOENROLES" ToRole="USUARIO" />
+  </EntityType>
+  <Association Name="FK__BANEO__idsuperus__24927208">
+    <End Role="USUARIO" Type="PPVIRModel.USUARIO" Multiplicity="1" />
+    <End Role="BANEO" Type="PPVIRModel.BANEO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="BANEO">
+        <PropertyRef Name="idsuperusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BANEO__idusuario__239E4DCF">
+    <End Role="USUARIO" Type="PPVIRModel.USUARIO" Multiplicity="1" />
+    <End Role="BANEO" Type="PPVIRModel.BANEO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="BANEO">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__COMENTARI__idcom__1920BF5C">
+    <End Role="COMENTARIO_CURSO" Type="PPVIRModel.COMENTARIO_CURSO" Multiplicity="1" />
+    <End Role="COMENTARIOS" Type="PPVIRModel.COMENTARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COMENTARIO_CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="COMENTARIOS">
+        <PropertyRef Name="idcomentariocurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__COMENTARI__idcur__145C0A3F">
+    <End Role="CURSO" Type="PPVIRModel.CURSO" Multiplicity="1" />
+    <End Role="COMENTARIO_CURSO" Type="PPVIRModel.COMENTARIO_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="COMENTARIO_CURSO">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__COMENTARI__idusu__1367E606">
+    <End Role="USUARIO" Type="PPVIRModel.USUARIO" Multiplicity="1" />
+    <End Role="COMENTARIO_CURSO" Type="PPVIRModel.COMENTARIO_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="COMENTARIO_CURSO">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MATERIAL__idcurs__08EA5793">
+    <End Role="CURSO" Type="PPVIRModel.CURSO" Multiplicity="1" />
+    <End Role="MATERIAL" Type="PPVIRModel.MATERIAL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MATERIAL">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PREGUNTA___idcur__1ED998B2">
+    <End Role="CURSO" Type="PPVIRModel.CURSO" Multiplicity="1" />
+    <End Role="PREGUNTA_CURSO" Type="PPVIRModel.PREGUNTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PREGUNTA_CURSO">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RESPUESTA__idcur__2F10007B">
+    <End Role="CURSO" Type="PPVIRModel.CURSO" Multiplicity="1" />
+    <End Role="RESPUESTA_CURSO" Type="PPVIRModel.RESPUESTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RESPUESTA_CURSO">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SUBIR_CUR__idcur__0EA330E9">
+    <End Role="CURSO" Type="PPVIRModel.CURSO" Multiplicity="1" />
+    <End Role="SUBIR_CURSO" Type="PPVIRModel.SUBIR_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SUBIR_CURSO">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PREGUNTA__idpreg__29572725">
+    <End Role="PREGUNTA_CURSO" Type="PPVIRModel.PREGUNTA_CURSO" Multiplicity="1" />
+    <End Role="PREGUNTA" Type="PPVIRModel.PREGUNTA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PREGUNTA_CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PREGUNTA">
+        <PropertyRef Name="idpreguntacurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RESPUESTA__idpre__300424B4">
+    <End Role="PREGUNTA" Type="PPVIRModel.PREGUNTA" Multiplicity="1" />
+    <End Role="RESPUESTA_CURSO" Type="PPVIRModel.RESPUESTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PREGUNTA">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RESPUESTA_CURSO">
+        <PropertyRef Name="idpregunta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PREGUNTA___idusu__1DE57479">
+    <End Role="USUARIO" Type="PPVIRModel.USUARIO" Multiplicity="1" />
+    <End Role="PREGUNTA_CURSO" Type="PPVIRModel.PREGUNTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PREGUNTA_CURSO">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RESPUESTA__idusu__2E1BDC42">
+    <End Role="PREGUNTA_CURSO" Type="PPVIRModel.PREGUNTA_CURSO" Multiplicity="1" />
+    <End Role="RESPUESTA_CURSO" Type="PPVIRModel.RESPUESTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PREGUNTA_CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RESPUESTA_CURSO">
+        <PropertyRef Name="idusuario_pregunta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USUARIOEN__idrol__5812160E">
+    <End Role="ROLES" Type="PPVIRModel.ROLES" Multiplicity="0..1" />
+    <End Role="USUARIOENROLES" Type="PPVIRModel.USUARIOENROLES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ROLES">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="USUARIOENROLES">
+        <PropertyRef Name="idrol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SESION__idusuari__412EB0B6">
+    <End Role="USUARIO" Type="PPVIRModel.USUARIO" Multiplicity="0..1" />
+    <End Role="SESION" Type="PPVIRModel.SESION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SESION">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SUBIR_CUR__idusu__0DAF0CB0">
+    <End Role="USUARIO" Type="PPVIRModel.USUARIO" Multiplicity="1" />
+    <End Role="SUBIR_CURSO" Type="PPVIRModel.SUBIR_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SUBIR_CURSO">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USUARIOEN__idusu__571DF1D5">
+    <End Role="USUARIO" Type="PPVIRModel.USUARIO" Multiplicity="0..1" />
+    <End Role="USUARIOENROLES" Type="PPVIRModel.USUARIOENROLES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="USUARIOENROLES">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

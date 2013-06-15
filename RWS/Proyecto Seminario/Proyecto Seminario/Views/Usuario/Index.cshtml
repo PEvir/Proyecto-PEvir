@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>PLATAFORMA - REGÍSTRATE</h2>
+<div class="Usuario-Index">
+    <div class="Usuario-Index-Imagen">
+        <img src="~/Images/plataformavirtual3.jpg" />
+    </div>
+    <div class="Usuario-Index-Boton">
+        @using (Html.BeginForm())
+        {
+            <div class="enlaceboton">
+                @Html.ActionLink("Registrar", "Create")<br />
+            </div>
+            <div class="enlaceboton">
+                @Html.ActionLink("Facebook", "#")<br />
+            </div>
+            <div class="enlaceboton">
+                @Html.ActionLink("Twitter", "#")<br />
+            </div>
+        }
+        <div>
+            Eskljdfl askdjfld faks dflajdlfjas dlñfkajsdñf alsdkjf añsldkfj asldkfja sdlfjasdlf jasldfj asldkfj
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+

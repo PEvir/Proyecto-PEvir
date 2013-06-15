@@ -1,0 +1,85 @@
+.editor-label
+{
+    text-transform: capitalize;
+}
+.Usuario-Formulario-Registro
+{
+    background-color: #006400;
+    max-width: 500px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 10px 10px;
+    padding-top: 18px;
+    padding-bottom: 0px;
+}
+.four.columns
+{
+    max-height: 40px;
+    border: none;
+    background-color: #006400;
+    color: #D8D1D1;
+    border-bottom: 2px solid #00FF7F;
+}
+    .four.columns input
+    {
+        // border: 10px solid #ff6a00;
+        // min-width: 200px;
+        width: 200px;
+    }
+    .four.columns #cbSexo
+    {
+        width: 210px;
+        min-height: 30px;
+    }
+    
+    {
+        border: 5px solid #f00;
+    }
+
+.Usuario-Index
+{
+    border: 1px solid #00ff21;
+    min-height: 500px;
+}
+.Usuario-Index-Imagen
+{
+    border: 1px solid #0ff;
+    float: left;
+    margin-right: 50px;
+}
+.Usuario-Index-Boton
+{
+    border: 1px solid #808080;
+    float: left;
+    max-width: 250px;
+    margin-left: 300px;
+}
+.enlaceboton {    
+   font-family: verdana, arial, sans-serif; 
+   font-size: 10pt; 
+   font-weight: bold; 
+   padding: 4px; 
+   background-color: #ffffcc; 
+   color: #666666; 
+   text-decoration: none; 
+} 
+.enlaceboton:link, .enlaceboton:visited { 
+   border-top: 1px solid #cccccc; 
+   border-bottom: 2px solid #666666; 
+   border-left: 1px solid #cccccc; 
+   border-right: 2px solid #666666; 
+} 
+.enlaceboton:hover { 
+    border-bottom: 1px solid #cccccc; 
+   border-top: 2px solid #666666; 
+   border-right: 1px solid #cccccc; 
+   border-left: 2px solid #666666; 
+}
+
+.listaFormulario
+{
+    //border: 20px solid #0ff;
+}
+
+// Formulario

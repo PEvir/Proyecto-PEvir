@@ -1,0 +1,119 @@
+﻿
+<html>
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+    
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Plataforma Virtual</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="/css/base.css">
+	<link rel="stylesheet" href="/css/skeleton.css">
+	<link rel="stylesheet" href="/css/layout.css">
+  
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="/Imagenes/favicon.ico">
+	<link rel="apple-touch-icon" href="/Imagenes/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/Imagenes/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/Imagenes/apple-touch-icon-114x114.png">
+
+    
+</head>
+<body>
+   @* <h1>hola</h1>*@
+        <div class="container">
+            <div class="header">
+        
+                    <div class="content">
+                        <!-- logotipo-->
+                        <div class="three columns ">
+                             <img width="90px" height="90px" src="~/Imagenes/aula_v.png"/>
+                        </div>
+                         <!-- banner-->
+                        <div class="four columns">
+                             PPvir
+                        </div>
+                        <!-- login-->
+                        <div class="nine columns  ">
+                           <form>
+                                <table>
+                                    <tr>
+                                        <td><label>Correo</label></td>
+                                        <td><label>Contraseña</label></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                   
+                                        <td><input type="email" name="email" /></td>
+                                        <td><input type="password" name="pass" size="2" maxlength="15" /></td>
+                                        <td><input type="submit" value="Entrar"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox" name="no_cerrar" value="no_cerrar_sesion" /> No cerrar sesion</td>
+                                        <td><a href="/Home/Registro">¿Has olvidado tu contraseña?</a></td>
+                                        <td></td>
+                                    </tr>
+                                    <!--<tr>
+                                        <td rowspan="3"><a href="/Home/Registro"><big>Resitro de usuario</big></a></td>
+                                    </tr>-->
+                                </table>
+                            </form>
+                        </div>
+                        <!-- Menu Principal-->
+                        <div class="sixteen columns">
+                            Menu
+                        </div> 
+                        <!-- Menu Principal paleta de opciones-->
+                        <div class="sixteen columns">
+                            Paleta de opciones
+                        </div> 
+                        <!-- imagenes que se desplazan-->
+                        <div class="area_imagenes">
+                            @RenderSection("featured", required: false)
+                            <section class="content-wrapper main-content clear-fix">
+                                @RenderBody()
+                            </section>
+                            Imagenes que se desplazan
+                        </div> 
+                        <!-- Area Central-->
+                        <div class="area_central">
+                            
+                            <div class="contenido">
+                                Para todo el contenido ddddddddddddddddddddddddddd dddddddddddddddddd ddddddddddddddddddddddddddddd ddddddddddddddddddddddddddddd dddddddddddddddddddddddd ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+                            </div>
+                            <div class="resumen">
+                                resumen del ... jffffffffffff ffffffffffff kkkkkkkkkkk kkkkkkkkkkkkkkkkk  fffffffffffffffff fffffffd  fdsaf fdsa fdsafer fgdsagdsa fdsa fdsa
+                            </div>
+                        </div> 
+                         <!-- Copyright © 2013 -->
+                        <div class="sixteen columns">
+                            Copyright © 2013 
+                        </div> 
+                    </div><!-- content -->
+
+
+ 
+            </div> <!-- header -->
+        </div> <!-- container -->
+
+</body><!-- body -->
+</html><!-- html -->

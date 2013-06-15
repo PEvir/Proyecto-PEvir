@@ -1,0 +1,107 @@
+﻿@model Proyecto_Seminario.Models.USUARIO
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>USUARIO</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nombre)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nombre)
+            @Html.ValidationMessageFor(model => model.nombre)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.apellidos)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.apellidos)
+            @Html.ValidationMessageFor(model => model.apellidos)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.email)
+            @Html.ValidationMessageFor(model => model.email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.avatar)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.avatar)
+            @Html.ValidationMessageFor(model => model.avatar)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.contrasena)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.contrasena)
+            @Html.ValidationMessageFor(model => model.contrasena)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nick)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nick)
+            @Html.ValidationMessageFor(model => model.nick)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.carrera)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.carrera)
+            @Html.ValidationMessageFor(model => model.carrera)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.telefono)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.telefono)
+            @Html.ValidationMessageFor(model => model.telefono)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.direccion)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.direccion)
+            @Html.ValidationMessageFor(model => model.direccion)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.sexo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.sexo)
+            @Html.ValidationMessageFor(model => model.sexo)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

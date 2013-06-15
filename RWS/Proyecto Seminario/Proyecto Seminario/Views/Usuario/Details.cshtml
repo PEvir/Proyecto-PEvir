@@ -1,0 +1,99 @@
+﻿@model Proyecto_Seminario.Models.USUARIO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>USUARIO</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nombre)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nombre)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.apellidos)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.apellidos)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.fechanacimiento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fechanacimiento)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.email)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.avatar)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.avatar)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nick)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nick)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.contrasena)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.contrasena)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.carrera)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.carrera)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.telefono)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.telefono)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.direccion)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.direccion)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sexo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sexo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.fecharegistro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fecharegistro)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

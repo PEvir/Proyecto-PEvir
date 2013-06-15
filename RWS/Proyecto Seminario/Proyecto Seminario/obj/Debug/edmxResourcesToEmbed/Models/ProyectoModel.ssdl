@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PPVIRModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PPVIRModelStoreContainer">
+    <EntitySet Name="BANEO" EntityType="PPVIRModel.Store.BANEO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="COMENTARIO_CURSO" EntityType="PPVIRModel.Store.COMENTARIO_CURSO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="COMENTARIOS" EntityType="PPVIRModel.Store.COMENTARIOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CURSO" EntityType="PPVIRModel.Store.CURSO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MATERIAL" EntityType="PPVIRModel.Store.MATERIAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PREGUNTA" EntityType="PPVIRModel.Store.PREGUNTA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PREGUNTA_CURSO" EntityType="PPVIRModel.Store.PREGUNTA_CURSO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RESPUESTA_CURSO" EntityType="PPVIRModel.Store.RESPUESTA_CURSO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ROLES" EntityType="PPVIRModel.Store.ROLES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SESION" EntityType="PPVIRModel.Store.SESION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SUBIR_CURSO" EntityType="PPVIRModel.Store.SUBIR_CURSO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="PPVIRModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="USUARIO" EntityType="PPVIRModel.Store.USUARIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="USUARIOENROLES" EntityType="PPVIRModel.Store.USUARIOENROLES" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__BANEO__idsuperus__24927208" Association="PPVIRModel.Store.FK__BANEO__idsuperus__24927208">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="BANEO" EntitySet="BANEO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BANEO__idusuario__239E4DCF" Association="PPVIRModel.Store.FK__BANEO__idusuario__239E4DCF">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="BANEO" EntitySet="BANEO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__COMENTARI__idcom__1920BF5C" Association="PPVIRModel.Store.FK__COMENTARI__idcom__1920BF5C">
+      <End Role="COMENTARIO_CURSO" EntitySet="COMENTARIO_CURSO" />
+      <End Role="COMENTARIOS" EntitySet="COMENTARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__COMENTARI__idcur__145C0A3F" Association="PPVIRModel.Store.FK__COMENTARI__idcur__145C0A3F">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="COMENTARIO_CURSO" EntitySet="COMENTARIO_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__COMENTARI__idusu__1367E606" Association="PPVIRModel.Store.FK__COMENTARI__idusu__1367E606">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="COMENTARIO_CURSO" EntitySet="COMENTARIO_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MATERIAL__idcurs__08EA5793" Association="PPVIRModel.Store.FK__MATERIAL__idcurs__08EA5793">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="MATERIAL" EntitySet="MATERIAL" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PREGUNTA___idcur__1ED998B2" Association="PPVIRModel.Store.FK__PREGUNTA___idcur__1ED998B2">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="PREGUNTA_CURSO" EntitySet="PREGUNTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PREGUNTA___idusu__1DE57479" Association="PPVIRModel.Store.FK__PREGUNTA___idusu__1DE57479">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="PREGUNTA_CURSO" EntitySet="PREGUNTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PREGUNTA__idpreg__29572725" Association="PPVIRModel.Store.FK__PREGUNTA__idpreg__29572725">
+      <End Role="PREGUNTA_CURSO" EntitySet="PREGUNTA_CURSO" />
+      <End Role="PREGUNTA" EntitySet="PREGUNTA" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RESPUESTA__idcur__2F10007B" Association="PPVIRModel.Store.FK__RESPUESTA__idcur__2F10007B">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="RESPUESTA_CURSO" EntitySet="RESPUESTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RESPUESTA__idpre__300424B4" Association="PPVIRModel.Store.FK__RESPUESTA__idpre__300424B4">
+      <End Role="PREGUNTA" EntitySet="PREGUNTA" />
+      <End Role="RESPUESTA_CURSO" EntitySet="RESPUESTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RESPUESTA__idusu__2E1BDC42" Association="PPVIRModel.Store.FK__RESPUESTA__idusu__2E1BDC42">
+      <End Role="PREGUNTA_CURSO" EntitySet="PREGUNTA_CURSO" />
+      <End Role="RESPUESTA_CURSO" EntitySet="RESPUESTA_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SESION__idusuari__412EB0B6" Association="PPVIRModel.Store.FK__SESION__idusuari__412EB0B6">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="SESION" EntitySet="SESION" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SUBIR_CUR__idcur__0EA330E9" Association="PPVIRModel.Store.FK__SUBIR_CUR__idcur__0EA330E9">
+      <End Role="CURSO" EntitySet="CURSO" />
+      <End Role="SUBIR_CURSO" EntitySet="SUBIR_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SUBIR_CUR__idusu__0DAF0CB0" Association="PPVIRModel.Store.FK__SUBIR_CUR__idusu__0DAF0CB0">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="SUBIR_CURSO" EntitySet="SUBIR_CURSO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USUARIOEN__idrol__5812160E" Association="PPVIRModel.Store.FK__USUARIOEN__idrol__5812160E">
+      <End Role="ROLES" EntitySet="ROLES" />
+      <End Role="USUARIOENROLES" EntitySet="USUARIOENROLES" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USUARIOEN__idusu__571DF1D5" Association="PPVIRModel.Store.FK__USUARIOEN__idusu__571DF1D5">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="USUARIOENROLES" EntitySet="USUARIOENROLES" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BANEO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="int" Nullable="false" />
+    <Property Name="idsuperusuario" Type="int" Nullable="false" />
+    <Property Name="razonbaneo" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="gravedad" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="fechainiciobaneo" Type="datetime" Nullable="false" />
+    <Property Name="fechafinbaneo" Type="datetime" />
+    <Property Name="activo" Type="varchar" MaxLength="10" />
+    <Property Name="fecharegistro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="COMENTARIO_CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="int" Nullable="false" />
+    <Property Name="idcurso" Type="int" Nullable="false" />
+    <Property Name="fecharegistro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="COMENTARIOS">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idcomentariocurso" Type="int" Nullable="false" />
+    <Property Name="titulo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="comentario" Type="varchar" MaxLength="200" />
+    <Property Name="fecharegistro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="titulodelcurso" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="descripcion" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="fechainicio" Type="datetime" Nullable="false" />
+    <Property Name="fecharegistro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MATERIAL">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idcurso" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="tipo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fecharegistro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PREGUNTA">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idpreguntacurso" Type="int" Nullable="false" />
+    <Property Name="titulo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fecharegistro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PREGUNTA_CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="int" Nullable="false" />
+    <Property Name="idcurso" Type="int" Nullable="false" />
+    <Property Name="hora" Type="time" Nullable="false" />
+    <Property Name="fecharegistro" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RESPUESTA_CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario_pregunta" Type="int" Nullable="false" />
+    <Property Name="idcurso" Type="int" Nullable="false" />
+    <Property Name="idpregunta" Type="int" Nullable="false" />
+    <Property Name="puntaje" Type="int" Nullable="false" />
+    <Property Name="fecharegistro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ROLES">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" MaxLength="64" />
+    <Property Name="detalles" Type="varchar" MaxLength="256" />
+    <Property Name="fecharegistro" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SESION">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="int" />
+    <Property Name="estado" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="SUBIR_CURSO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="int" Nullable="false" />
+    <Property Name="idcurso" Type="int" Nullable="false" />
+    <Property Name="materia" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="fecharegistro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="apellidos" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="fechanacimiento" Type="datetime" Nullable="false" />
+    <Property Name="email" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="avatar" Type="varchar" MaxLength="512" />
+    <Property Name="nick" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="contrasena" Type="varchar" Nullable="false" MaxLength="256" />
+    <Property Name="carrera" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="telefono" Type="varchar" MaxLength="15" />
+    <Property Name="direccion" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="sexo" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="fecharegistro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USUARIOENROLES">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="int" />
+    <Property Name="idrol" Type="int" />
+  </EntityType>
+  <Association Name="FK__BANEO__idsuperus__24927208">
+    <End Role="USUARIO" Type="PPVIRModel.Store.USUARIO" Multiplicity="1" />
+    <End Role="BANEO" Type="PPVIRModel.Store.BANEO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="BANEO">
+        <PropertyRef Name="idsuperusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BANEO__idusuario__239E4DCF">
+    <End Role="USUARIO" Type="PPVIRModel.Store.USUARIO" Multiplicity="1" />
+    <End Role="BANEO" Type="PPVIRModel.Store.BANEO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="BANEO">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__COMENTARI__idcom__1920BF5C">
+    <End Role="COMENTARIO_CURSO" Type="PPVIRModel.Store.COMENTARIO_CURSO" Multiplicity="1" />
+    <End Role="COMENTARIOS" Type="PPVIRModel.Store.COMENTARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COMENTARIO_CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="COMENTARIOS">
+        <PropertyRef Name="idcomentariocurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__COMENTARI__idcur__145C0A3F">
+    <End Role="CURSO" Type="PPVIRModel.Store.CURSO" Multiplicity="1" />
+    <End Role="COMENTARIO_CURSO" Type="PPVIRModel.Store.COMENTARIO_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="COMENTARIO_CURSO">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__COMENTARI__idusu__1367E606">
+    <End Role="USUARIO" Type="PPVIRModel.Store.USUARIO" Multiplicity="1" />
+    <End Role="COMENTARIO_CURSO" Type="PPVIRModel.Store.COMENTARIO_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="COMENTARIO_CURSO">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MATERIAL__idcurs__08EA5793">
+    <End Role="CURSO" Type="PPVIRModel.Store.CURSO" Multiplicity="1" />
+    <End Role="MATERIAL" Type="PPVIRModel.Store.MATERIAL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MATERIAL">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PREGUNTA___idcur__1ED998B2">
+    <End Role="CURSO" Type="PPVIRModel.Store.CURSO" Multiplicity="1" />
+    <End Role="PREGUNTA_CURSO" Type="PPVIRModel.Store.PREGUNTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PREGUNTA_CURSO">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PREGUNTA___idusu__1DE57479">
+    <End Role="USUARIO" Type="PPVIRModel.Store.USUARIO" Multiplicity="1" />
+    <End Role="PREGUNTA_CURSO" Type="PPVIRModel.Store.PREGUNTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PREGUNTA_CURSO">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PREGUNTA__idpreg__29572725">
+    <End Role="PREGUNTA_CURSO" Type="PPVIRModel.Store.PREGUNTA_CURSO" Multiplicity="1" />
+    <End Role="PREGUNTA" Type="PPVIRModel.Store.PREGUNTA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PREGUNTA_CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="PREGUNTA">
+        <PropertyRef Name="idpreguntacurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RESPUESTA__idcur__2F10007B">
+    <End Role="CURSO" Type="PPVIRModel.Store.CURSO" Multiplicity="1" />
+    <End Role="RESPUESTA_CURSO" Type="PPVIRModel.Store.RESPUESTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RESPUESTA_CURSO">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RESPUESTA__idpre__300424B4">
+    <End Role="PREGUNTA" Type="PPVIRModel.Store.PREGUNTA" Multiplicity="1" />
+    <End Role="RESPUESTA_CURSO" Type="PPVIRModel.Store.RESPUESTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PREGUNTA">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RESPUESTA_CURSO">
+        <PropertyRef Name="idpregunta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RESPUESTA__idusu__2E1BDC42">
+    <End Role="PREGUNTA_CURSO" Type="PPVIRModel.Store.PREGUNTA_CURSO" Multiplicity="1" />
+    <End Role="RESPUESTA_CURSO" Type="PPVIRModel.Store.RESPUESTA_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PREGUNTA_CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RESPUESTA_CURSO">
+        <PropertyRef Name="idusuario_pregunta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SESION__idusuari__412EB0B6">
+    <End Role="USUARIO" Type="PPVIRModel.Store.USUARIO" Multiplicity="0..1" />
+    <End Role="SESION" Type="PPVIRModel.Store.SESION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SESION">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SUBIR_CUR__idcur__0EA330E9">
+    <End Role="CURSO" Type="PPVIRModel.Store.CURSO" Multiplicity="1" />
+    <End Role="SUBIR_CURSO" Type="PPVIRModel.Store.SUBIR_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CURSO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SUBIR_CURSO">
+        <PropertyRef Name="idcurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SUBIR_CUR__idusu__0DAF0CB0">
+    <End Role="USUARIO" Type="PPVIRModel.Store.USUARIO" Multiplicity="1" />
+    <End Role="SUBIR_CURSO" Type="PPVIRModel.Store.SUBIR_CURSO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SUBIR_CURSO">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USUARIOEN__idrol__5812160E">
+    <End Role="ROLES" Type="PPVIRModel.Store.ROLES" Multiplicity="0..1" />
+    <End Role="USUARIOENROLES" Type="PPVIRModel.Store.USUARIOENROLES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ROLES">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="USUARIOENROLES">
+        <PropertyRef Name="idrol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USUARIOEN__idusu__571DF1D5">
+    <End Role="USUARIO" Type="PPVIRModel.Store.USUARIO" Multiplicity="0..1" />
+    <End Role="USUARIOENROLES" Type="PPVIRModel.Store.USUARIOENROLES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="USUARIOENROLES">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

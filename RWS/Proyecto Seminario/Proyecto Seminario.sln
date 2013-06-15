@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto Seminario", "Proyecto Seminario\Proyecto Seminario.csproj", "{DF06F201-303D-475F-8EB7-D4DE3FA57DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto Seminario.Tests", "Proyecto Seminario.Tests\Proyecto Seminario.Tests.csproj", "{329362EC-3DC6-48F5-9CDC-89C05DE60334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF06F201-303D-475F-8EB7-D4DE3FA57DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF06F201-303D-475F-8EB7-D4DE3FA57DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF06F201-303D-475F-8EB7-D4DE3FA57DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF06F201-303D-475F-8EB7-D4DE3FA57DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329362EC-3DC6-48F5-9CDC-89C05DE60334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329362EC-3DC6-48F5-9CDC-89C05DE60334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329362EC-3DC6-48F5-9CDC-89C05DE60334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329362EC-3DC6-48F5-9CDC-89C05DE60334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

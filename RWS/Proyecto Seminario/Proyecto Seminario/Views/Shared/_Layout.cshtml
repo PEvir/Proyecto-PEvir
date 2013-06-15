@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+
+        <!-- Basic Page Needs
+        ================================================== -->
+	    <meta charset="utf-8">
+	    <title>Plataforma Virtual</title>
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+	    <!-- Mobile Specific Metas
+        ================================================== -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	    <!-- CSS
+        ================================================== -->
+	    <link rel="stylesheet" href="/Stylesheets/base.css">
+	    <link rel="stylesheet" href="/Stylesheets/skeleton.css">
+	    <link rel="stylesheet" href="/Stylesheets/layout.css">
+        <link rel="stylesheet" href="~/Stylesheets/jquery.bxslider.css">
+     
+
+        @*<link rel="stylesheet" href="/Stylesheets/estile-1.css">*@
+        
+        <!-- Customize -->
+        <link rel="stylesheet" href="/Stylesheets/EstudiantePrincipal.css" />
+        <link rel="stylesheet" href="~/Stylesheets/Usuario.css" />
+        <link rel="stylesheet" href="~/Stylesheets/base129e.css" />
+  
+	    <!--[if lt IE 9]>
+		    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
+
+	    <!-- Favicons
+	    ================================================== -->
+	    <link rel="shortcut icon" href="/Images/favicon.ico">
+	    <link rel="apple-touch-icon" href="/Images/apple-touch-icon.png">
+	    <link rel="apple-touch-icon" sizes="72x72" href="/Images/apple-touch-icon-72x72.png">
+	    <link rel="apple-touch-icon" sizes="114x114" href="/Images/apple-touch-icon-114x114.png">
+        <!-- jQuery
+	    ================================================== -->
+        
+        <script language="javascript" src="~/Scripts/jquery-2.0.2.min.js"></script>
+        <script language="javascript" src="~/Scripts/jquery.menu.desplegable.js"></script>
+        <script language="javascript" src="~/Scripts/jquery.bxslider.min.js"></script>
+        <script language="javascript" src="~/Scripts/jquery.fitvids.js"></script>
+        <script language="javascript" src="~/Scripts/jquery.easing.1.3.js"></script>
+      
+
+    </head>
+    @* abilitar en body para proteger el click derecho oncontextmenu="return false" onkeydown="return false"*@
+    <body class="cuerpo">
+        <div class="container">
+            <div class="header">
+                <div class="content">
+                    <!-- logotipo-->
+                    <div class="three columns ">
+                            <img width="90" height="90" src="/Images/aula_v.png"/>
+                    </div>
+                        <!-- banner-->
+                    <div class="four columns">
+                            PPvir
+                    </div>
+                    <!-- login-->
+                    <div class="nine columns">
+                        <!-- Login o Saludo -->
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                    <!-- Menu Principal-->
+                    <div class="sixteen columns">    
+		                <div id="menu_superior">
+			                <ul class="menu_sup">
+				                <li><a href="#">Inicio</a></li>
+				                <li><a href="#">Usuarios</a>
+						                <ul class="subnav">
+							                <li><a href="#">Registro</a></li>
+							                <li><a href="#">Otro</a></li>
+						                </ul>
+				                </li>
+                                <li><a href="#">Usuarios</a>
+						                <ul class="subnav">
+							                <li><a href="#">Registro</a></li>
+							                <li><a href="#">Otro</a></li>
+						                </ul>
+				                </li>
+                                <li><a href="#">Usuarios</a>
+						                <ul class="subnav">
+							                <li><a href="#">Registro</a></li>
+							                <li><a href="#">Otro</a></li>
+						                </ul>
+				                </li>
+				                <li><a href="#">Manuales</a>
+						                <ul class="subnav">
+							                <li><a href="#">Manuales 1</a></li>
+							                <li><a href="#">manuales 2</a></li>
+						                </ul>
+				                </li>
+				                <li><a href="#">enlace 3</a></li>
+				                <li><a href="#">enlace 4</a></li>
+			                </ul>
+		                </div>
+                   </div> 
+                    <!-- imagenes que se desplazan-->
+                    <div class="area_images">
+                    <!-- Slider -->
+                        @*<script>
+                            $(document).ready(function () {
+                                $('.bxslider').bxSlider();
+                            });
+                        </script>*@
+                        <ul class="bxslider">  
+
+                          @*<li><img src="~/Images/fslide01.jpg" /></li>
+                          <li><img src="~/Images/fslide02.jpg" /></li>
+                          <li><img src="~/Images/fslide03.jpg" /></li>*@
+                          <li><img src="~/Images/fslide04.jpg" /></li>
+                        </ul>
+
+                    </div> 
+                    <!-- Area Central-->
+                    <div class="area_central">
+                        @RenderSection("featured", required: false)
+                            <section class="content-wrapper main-content clear-fix">
+                                @RenderBody()
+                            </section>    
+                        <div class="contenido">
+                           <p>Hoy en día la combinación de la informática con las comunicaciones interconecta a los seres humanos.  Nuevas organizaciones antes inimaginables están dando lugar a una revolución tecnológica, comunicacional, social y humana sin precedentes en la historia.
+Así pues una nueva organización en construcción o “Sociedad del conocimiento” está siendo definida e Internet dio inicio a esta revolución que está cambiando de manera irreversible los hábitos y  la cultura humana en los próximos siglos.
+Nuestra visión en la educación es ayudarle a usted para formar parte de la sociedad del conocimiento y no quedar fuera de esta gran revolución.
+Por eso nuestro programa de enseñanza se enfoca tanto en lo técnico como en lo pedagógico y por ello  buscará una solución con visión para poder formar parte de esta transformación que está causando fuertes reacciones en el mundo actual y globalizado.
+La falta de integración a las TIC´s  es preocupante porque promueve la pobreza y disminuye las oportunidades en las generaciones presentes y futuras. Por ello la promovemos con el principal interés de lograr los más altos niveles de competencias técnicas/pedagógica que contribuyan a la transformación de nuestra sociedad hacia el bien común y hacia una mejor calidad de vida. 
+</p>
+<h6>Nuestra Misión: </h6>
+<p>Nuestra  misión es integrar de manera global y eficiente  a toda la comunidad educativa a las tecnologías de la información y comunicación (Tic´s) y consecuentemente a la sociedad del conocimiento.  Las soluciones educativas tecnológicas que hemos diseñado aseguran que nuestra misión de integradores sea alcanzada con éxito. 
+Con sentido de responsabilidad y compromiso, los cambios que se están dando en la sociedad y buscar herramientas y recursos necesarios para brindar a los usuarios  la oportunidad de prepararse de acuerdo a las nuevas exigencias y responder a ellas de manera eficaz.
+</p>
+                        </div>
+                        <div class="resumen">
+                            resumen del ... jffffffffffff ffffffffffff kkkkkkkkkkk kkkkkkkkkkkkkkkkk  fffffffffffffffff fffffffd  fdsaf fdsa fdsafer fgdsagdsa fdsa fdsa
+                        </div>
+                    </div> 
+                        <!-- Copyright © 2013 -->
+                    <div class="sixteen columns">
+                        <center>Copyright © 2013 </center>
+                    </div> 
+                </div><!-- content -->
+            </div> <!-- header -->
+        </div> <!-- container -->
+
+    </body><!-- body -->        
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+
+</html><!-- html -->
+

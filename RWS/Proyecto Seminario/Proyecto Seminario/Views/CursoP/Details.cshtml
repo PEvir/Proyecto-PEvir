@@ -1,0 +1,36 @@
+﻿@model Proyecto_Seminario.Models.CURSO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>CURSO</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.titulodelcurso)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.titulodelcurso)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.descripcion)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.descripcion)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.fechainicio)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fechainicio)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

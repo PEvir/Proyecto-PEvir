@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Proyecto_Seminario.Models.CURSO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Cursos</h2>
+
+@foreach (var item in Model) {
+    @*
+    <section id="anteriores">
+    *@
+        <!-- <div class="twelve columns"> -->
+            <!--
+            <h3>
+                <img src="/Images/archivos.png" alt="online" width="30" />
+                Online
+            </h3>
+            -->
+            <div class="four columns">
+
+            </div>
+            <div class="five columns">
+                <!-- <p class="descr"> -->
+                    @Html.DisplayFor(modelItem => item.descripcion)
+                <!-- </p> -->
+            </div>
+            <!--
+            <div class="cintaver">
+	        </div>
+            -->
+            @*
+            <a href="frontend-online" title="@Html.DisplayFor(modelItem => item.titulodelcurso)">
+            *@
+                <div class="two columns">
+			        <img src="~/Images/plan.png" alt="@Html.DisplayFor(modelItem => item.titulodelcurso)" />
+		        </div>
+                <div class="four columns">
+
+                </div>
+                @*
+		        <div class="texto">
+			        <div class="block">
+				        <h2 class="tit">@Html.DisplayFor(modelItem => item.titulodelcurso)</h2>
+			        </div>
+		        </div>
+                *@
+	        @*
+            </a>
+            *@
+        <!-- </div> -->
+    @*
+    </section>
+    *@
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3c56d2bf95544b819ce9dd24d781a254" Name="Diagram1">
+        <EntityTypeShape EntityType="PPVIRModel.BANEO" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.COMENTARIO_CURSO" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.COMENTARIOS" Width="1.5" PointX="5.25" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.CURSO" Width="1.5" PointX="3.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.MATERIAL" Width="1.5" PointX="6" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.PREGUNTA" Width="1.5" PointX="8.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.PREGUNTA_CURSO" Width="1.5" PointX="6" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.RESPUESTA_CURSO" Width="1.5" PointX="10.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.ROLES" Width="1.5" PointX="3.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.SESION" Width="1.5" PointX="3" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.SUBIR_CURSO" Width="1.5" PointX="6" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.USUARIO" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPVIRModel.USUARIOENROLES" Width="1.5" PointX="6" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="PPVIRModel.FK__BANEO__idsuperus__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__BANEO__idusuario__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__COMENTARI__idcom__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__COMENTARI__idcur__145C0A3F" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__COMENTARI__idusu__1367E606" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__MATERIAL__idcurs__08EA5793" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__PREGUNTA___idcur__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__RESPUESTA__idcur__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__SUBIR_CUR__idcur__0EA330E9" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__PREGUNTA__idpreg__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__RESPUESTA__idpre__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__PREGUNTA___idusu__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__RESPUESTA__idusu__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__USUARIOEN__idrol__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__SESION__idusuari__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__SUBIR_CUR__idusu__0DAF0CB0" ManuallyRouted="false" />
+        <AssociationConnector Association="PPVIRModel.FK__USUARIOEN__idusu__571DF1D5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

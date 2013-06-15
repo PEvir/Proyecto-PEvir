@@ -1,0 +1,26 @@
+﻿@if ((ViewBag.Validado != null && ViewBag.Validado))
+{
+    string label = ViewBag.Usuario.nick;
+    string enlace = "../Usuario/Details/" + ViewBag.Usuario.id;
+    <p>Hola @Html.ActionLink(label, enlace)</p>
+}
+else
+{
+    @model Proyecto_Seminario.Models.USUARIO
+    <script>function hideIcon(self) {
+        self.style.backgroundImage = 'none';
+    }</script>
+    <form class="login_form" action="../Login/Index" method="post">
+        <ul>
+            <li>
+                <input  type="text" class="correo" name="nick" placeholder="User" required />
+                @Html.ValidationMessageFor(model => model.nick)
+
+                <input type="password" class="pswd" name="contrasena" placeholder="Password" required/>
+                @Html.ValidationMessageFor(model => model.contrasena)
+
+                <button class="submit" type="submit">Enviar</button>
+            </li>
+        </ul>
+    </form>
+}
