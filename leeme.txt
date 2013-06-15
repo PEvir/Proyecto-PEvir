@@ -1,0 +1,13 @@
+------------------------------PROYECTO DE SEMINARIO SIS 758 GRUPO N°2---------------
+INTEGRANTES: 	UNIV. LUIS ALI MAMANI
+		UNIV. CHRISTIAN GIOVANNI CHOQUE PUITA
+		UNIV. JUAN LUIS RODRIGUEZ TACURI
+
+Este es un documento del proyecto de 
+Seminario de Sistemas SIS 758 para una 
+plataforma Virtual Educativa con la cual se aplicara las tecnologías de MVC 4.0 ,
+usando además SQL Server 2008. Con dicha 
+plataforma se pretende aplicar todos los 
+conocimientos adquiridos en la Carrera de Ingeniería de Sistemas
+para la presente materia.
+-------------------------------------------------------------------------
